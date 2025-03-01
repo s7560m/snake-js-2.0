@@ -1,0 +1,14 @@
+GameHandler
+* runs the game
+* handles start and death screen
+* draws the score at the top
+
+ArenaHandler
+* draws the arena
+* sets arena to specific length
+* is a singleton instance
+
+SnakeHandler
+* sets up collision detection with itself and the arena
+* makes the snake move
+* makes the snake grow
